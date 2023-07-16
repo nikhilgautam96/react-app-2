@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+.navbar {
+    padding: 0.5rem;
+}
+.pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.page-list-item {
+    font-weight: bold;
+    border: 1px solid rgb(104, 103, 103);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: rgb(104, 103, 103);
+    padding: 0.75rem;
+    border-radius: 50%;
+    margin: 0.25rem;
+}
+.album {
+    background-color: rgb(247, 247, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shipments-container {
+    display: flex;
+    // flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.card-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid rgb(181, 180, 180);
+    border-radius: 1%;
+    margin: 0.5rem;
+    background-color: white;
+    min-height: 85%;
+}
+.card-text {
+    font-family: monospace;
+    font-size: large;
+    width: 100%;
+}
+.button-container {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.button {
+    background-color: rgb(245, 135, 33);
+    color: white;
+    font-family: monospace;
+    font-size: large;
+    padding: 0.5rem;
+    // width: 100%;
+}
+.url {
+    text-decoration: none;
+}
+
+.shipment-parent-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cargo {
+    background-color: white;
+    color: rgb(34, 33, 33);
+    min-width: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // align-items: center;
+    border: 1px solid black;
+    margin: 1rem 1rem 11rem 0;
+    padding: 0.5rem;
+    font-family: monospace;
+    font-size: large;
+}
+.cargo-shipment-detail {
+    background-color: white;
+    color: rgb(34, 33, 33);
+    min-width: 16rem;
+    border: 1px solid black;
+    margin-top: 11rem;
+    padding: 0.5rem;
+    font-family: monospace;
+    font-size: large;
+}
+// .cargo-heading,
+.cargo-line-break {
+    font-weight: bold;
+    width: 100%;
+}
+.cargo-description {
+}
+.cargo-shipment-detail-container {
+    background-color: rgb(234, 234, 227);
+}
+.cargo-group {
+    display: flex;
+    justify-content: center;
+}
+.text-red {
+    color: red;
+}
